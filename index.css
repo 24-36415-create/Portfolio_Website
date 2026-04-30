@@ -558,3 +558,24 @@ button:hover {
 .service-box:hover {
   background: rgba(255,255,255,0.4);
 }
+
+.video-player {
+  background: #FFFFFF;
+  border: 3px solid #F65009;
+  border-radius: 12px;
+  width: 320px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 30px auto;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  overflow: hidden; /* keeps video inside rounded corners */
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
