@@ -579,3 +579,20 @@ video {
   border-radius: 12px;
 }
 
+.skills-container {
+  display: flex;              /* puts video and skills side by side */
+  justify-content: space-between;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.skills-video {
+  flex: 1;                    /* video takes space */
+}
+
+.skills-box {
+  flex: 1;                    /* skills list takes equal space */
+  color: #000;
+}
+
+
