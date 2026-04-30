@@ -563,14 +563,14 @@ button:hover {
   background: #FFFFFF;
   border: 3px solid #F65009;
   border-radius: 12px;
-  width: 320px;
-  height: 180px;
+  width: 480px;   /* wider */
+  height: 270px;  /* taller */
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto 30px auto;
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-  overflow: hidden; /* keeps video inside rounded corners */
+  overflow: hidden;
 }
 
 video {
@@ -578,6 +578,7 @@ video {
   height: 100%;
   border-radius: 12px;
 }
+
 
 .skills-container {
   display: flex;              /* puts video and skills side by side */
@@ -594,5 +595,12 @@ video {
   flex: 1;                    /* skills list takes equal space */
   color: #000;
 }
-
+.skills-list-box {
+  border: 3px solid #F65009;
+  border-radius: 10px;
+  background: #ffe5d0;   /* light orange background */
+  padding: 15px 20px;
+  max-width: 500px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
 
