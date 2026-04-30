@@ -579,16 +579,11 @@ video {
   border-radius: 12px;
 }
 
-
 .skills-container {
   display: flex;              /* puts video and skills side by side */
   justify-content: space-between;
   gap: 40px;
   align-items: flex-start;
-  background: #ffe5d0;        /* light orange background */
-  padding: 20px;              /* adds spacing inside the container */
-  border-radius: 12px;        /* optional: rounded corners */
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2); /* optional: subtle shadow */
 }
 
 .skills-video {
@@ -598,6 +593,7 @@ video {
 .skills-box {
   flex: 1;                    /* skills list takes equal space */
   color: #000;
+  background: #ffe5d0;
 }
 .skills-list-box {
   border: 3px solid #F65009;
