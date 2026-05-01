@@ -603,10 +603,3 @@ video {
   max-width: 500px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
-
-.skills-list-box ul li {
-  margin: 8px 0;
-  font-size: 1rem;
-  font-weight: bold;
-  color: #fff;           /* ensures list items are white */
-}
