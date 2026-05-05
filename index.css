@@ -3,11 +3,10 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-image: url('bg.png'); /* use your actual file name */
-  background-size: cover;       /* makes sure the image fills the screen */
-  background-position: center;  /* keeps the image centered */
-  background-repeat: no-repeat; /* prevents tiling */
-  color: #fff;
+  background-image: url('bg.png'); 
+  background-size: cover;      
+  background-position: center; 
+  background-repeat: no-repeat; 
   line-height: 1.6;
 }
 
@@ -580,18 +579,18 @@ video {
 }
 
 .skills-container {
-  display: flex;              /* puts video and skills side by side */
+  display: flex;              
   justify-content: space-between;
   gap: 40px;
   align-items: flex-start;
 }
 
 .skills-video {
-  flex: 1;                    /* video takes space */
+  flex: 1;                   
 }
 
 .skills-box {
-  flex: 1;                    /* skills list takes equal space */
+  flex: 1;                    
   color: #000;
   
 }
